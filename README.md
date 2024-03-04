@@ -17,6 +17,8 @@ The scriptcode have used the far field equation of electric component utilized o
 #### Radiation Pattern of the TM<sub>05</sub> Mode
 ![TM05_polar_plot_W_60_L_60](https://github.com/heltonbernardo/distribution_field/assets/161172047/5d48a814-3e3e-429f-a7c0-78802275416e)
 
+For compute resonance frequency, we have used to function `high_order_tm(m,n,L,W,e_r,h)` which need to calculate cavity model effects.
+This function was set up in one of the my `resonance_frequency` repositories done.
 
 [^1]: Z. Ahmed, "TM<sub> mn <\sub> Mode Rectangular Patch Antennas with Improved Radiation Characteristics," Ph.D. thesis, Faculty of Eng., 
 Capital Univ. of Technology, Islamabad, 2021.
